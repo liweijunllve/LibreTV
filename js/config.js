@@ -173,11 +173,8 @@ const API_SITES = {
     ukzy: {
         api: 'https://api.ukuapi88.com/api.php/provide/vod',
         name: 'U酷资源'
-       adult: true
-    }
-    //ARCHIVE https://telegra.ph/APIs-08-12
+    },
 };
-
 // 定义合并方法
 function extendAPISites(newSites) {
     Object.assign(API_SITES, newSites);
